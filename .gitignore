@@ -1,0 +1,28 @@
+# Node/React
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.log
+
+# Python/Flask
+.venv/
+__pycache__/
+*.pyc
+instance/
+*.sqlite
+
+# Env / Secrets
+.env
+.env.local
+cookie.txt
+
+# Docker / DB
+pg_data/
+*.pid
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
