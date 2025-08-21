@@ -1,11 +1,17 @@
 # Demo Bistro — レストラン予約デモ（React + Flask + Postgres）
 
-フロント：React + TypeScript + Vite + Tailwind + react-router
-バック：Flask + SQLAlchemy + Gunicorn**（Docker で Postgres）
-認証：簡易セッション（クッキー） / `useAuth` フック
-予約：コース選択 → 日付/人数 → 時間枠（残席計算） → 確認/完了
+デプロイ構成
 
-> 本リポジトリはフロントとバックを1つで管理します。学習・ポートフォリオ用途を想定。
+フロントエンド: Vercel (React + Vite + Tailwind)
+バックエンド: Render (Flask + Gunicorn)
+データベース: Render PostgreSQL
+CI/CD: GitHub → Vercel / Render に自動デプロイ
+
+動作確認用
+メールアドレス:admin@example.com
+パスワード:password123
+
+デモURL:https://restaurant-web-phi-pearl.vercel.app/
 
 ---
 
@@ -30,7 +36,7 @@
 ## 機能ハイライト
 
 * 認証（サインアップ/ログイン/ログアウト、ガード付きルート）
-* 予約フロー（**コース ID 連携**、在庫チェック、重複予約検知）
+* 予約フロー（**コース ID 連携**、重複予約検知）
 * ダッシュボード（予約一覧/キャンセル、**コース表示＆概算合計**）
 * コンテンツページ（Menu / About / Gallery / Access / Contact / News / Events）
 * UI：Tailwind、アクセシビリティ配慮（radio group、フォーカスリング等）
