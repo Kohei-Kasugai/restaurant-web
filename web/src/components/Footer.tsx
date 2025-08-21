@@ -30,9 +30,9 @@ export default function Footer() {
             Demo Bistro
           </Link>
           <address className="not-italic text-gray-600">
-            東京都〇〇区〇〇 1-2-3<br />
+            岐阜県〇〇市〇〇 1-2-3<br />
             <span className="inline-flex items-center gap-1 text-xs mt-1 rounded-full border px-2 py-1 bg-gray-50">
-              営業 11:30–14:30 / 18:00–22:00
+              営業 17:00–23:00
             </span>
             <div className="text-xs text-gray-500 mt-1">火曜定休</div>
           </address>
