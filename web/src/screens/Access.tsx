@@ -9,7 +9,7 @@ export default function Access() {
 
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <div>営業時間：11:30–14:30 / 18:00–22:00</div>
+          <div>営業時間：17:00–23:00</div>
           <div>定休日：火曜</div>
           <div>電話：03-xxxx-xxxx</div>
           <div>メール：info@example.com</div>
